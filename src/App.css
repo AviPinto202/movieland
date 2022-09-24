@@ -301,9 +301,17 @@ h1 {
     width: 20px;
     height: 20px;
   }
+
+  .main h1 {
+    font-size: 40px;
+  }
+
+  .videoSection iframe {
+    width: 375px;
+  }
 }
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 300px) {
   .app {
     padding: 4rem 1rem;
   }
@@ -319,5 +327,9 @@ h1 {
   .movie {
     width: "100%";
     margin: 1rem;
+  }
+
+  .videoSection iframe {
+    width: 350px;
   }
 }
